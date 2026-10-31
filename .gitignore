@@ -1,0 +1,20 @@
+# Dependencies and generated output
+node_modules/
+dist/
+
+# Local environment files and secrets
+.env
+.env.*
+!.env.example
+
+# Local-only editor and OS files
+.vscode/*
+!.vscode/extensions.json
+.DS_Store
+Thumbs.db
+
+# CampusCash exports and local backups
+backups/
+*.backup.json
+*.bak.json
+campuscash-backup-*.json
